@@ -1,5 +1,6 @@
 # vaccine-slots-tracker-macos
 
+NOTE : Works only for macos
 
 - git clone
 - npm install
