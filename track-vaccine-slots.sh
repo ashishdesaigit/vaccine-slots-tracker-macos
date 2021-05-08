@@ -4,7 +4,7 @@ bookingDate="08-05-2021"
 res="No Slots Available"
 notificationTitle="Vaccine Slot available - Slot available"
 while [[ "$res" == "$res" ]]; do
-    for pin in 794102 794005 794114
+    for pin in 416119 416005 416209 416216
     do
         res=$(node index.js $pin $bookingDate)
         if [ "$res" == "$res" ]; then
